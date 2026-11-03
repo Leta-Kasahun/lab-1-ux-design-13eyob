@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="36dp"
+    android:height="24dp"
+    android:viewportWidth="1536"
+    android:viewportHeight="1024">
+
+    <!-- ===== Blade 1 (top, longest) ===== -->
+    <path android:pathData="M215,985 C500,780 1000,450 1240,220 C1310,150 1350,90 1368,30 C1400,130 1395,230 1320,330 C1200,470 1000,560 800,650 C650,720 480,820 350,915 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear"
+                android:startX="215" android:startY="985"
+                android:endX="1368" android:endY="30">
+                <item android:offset="0.0" android:color="#FFE8EAEE" />
+                <item android:offset="0.5" android:color="#FFFFFFFF" />
+                <item android:offset="1.0" android:color="#FFF4F5F8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- shaded side facet -->
+    <path
+        android:fillColor="#FFC4C9D2"
+        android:pathData="M1368,30 C1400,130 1395,230 1320,330 C1200,470 1000,560 800,650 C650,720 480,820 350,915 C560,780 850,600 1050,470 C1200,370 1320,230 1368,30 Z" />
+
+    <!-- ===== Blade 2 ===== -->
+    <path android:pathData="M360,905 C600,780 900,620 1120,510 C1230,455 1310,425 1360,405 C1350,500 1300,570 1180,640 C1000,730 800,780 600,850 C500,885 420,900 360,905 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear"
+                android:startX="360" android:startY="905"
+                android:endX="1360" android:endY="405">
+                <item android:offset="0.0" android:color="#FFE8EAEE" />
+                <item android:offset="0.6" android:color="#FFFFFFFF" />
+                <item android:offset="1.0" android:color="#FFF4F5F8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#FFC4C9D2"
+        android:pathData="M1360,405 C1350,500 1300,570 1180,640 C1000,730 800,780 600,850 C500,885 420,900 360,905 C560,830 800,740 1000,640 C1150,560 1290,490 1360,405 Z" />
+
+    <!-- ===== Blade 3 ===== -->
+    <path android:pathData="M350,912 C650,850 950,800 1225,718 C1220,790 1150,850 1000,890 C900,915 800,915 700,910 C560,905 450,905 350,912 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear"
+                android:startX="350" android:startY="912"
+                android:endX="1225" android:endY="718">
+                <item android:offset="0.0" android:color="#FFE8EAEE" />
+                <item android:offset="0.6" android:color="#FFFFFFFF" />
+                <item android:offset="1.0" android:color="#FFF4F5F8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#FFC4C9D2"
+        android:pathData="M1225,718 C1220,790 1150,850 1000,890 C900,915 800,915 700,910 C560,905 450,905 350,912 C600,890 900,880 1050,830 C1150,795 1200,760 1225,718 Z" />
+
+    <!-- ===== Blade 4 (bottom, shortest) ===== -->
+    <path android:pathData="M200,985 C260,950 330,915 420,905 C560,895 700,915 830,925 C890,930 925,935 940,940 C900,965 800,975 650,982 C500,988 350,990 200,985 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear"
+                android:startX="200" android:startY="985"
+                android:endX="940" android:endY="940">
+                <item android:offset="0.0" android:color="#FFE8EAEE" />
+                <item android:offset="0.6" android:color="#FFFFFFFF" />
+                <item android:offset="1.0" android:color="#FFF4F5F8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#FFC4C9D2"
+        android:pathData="M940,940 C900,965 800,975 650,982 C500,988 350,990 200,985 C400,975 700,955 940,940 Z" />
+</vector>

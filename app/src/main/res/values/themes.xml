@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.EthiopianAirlinesInterfaceDesign" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/ethiopian_green</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.EthiopianAirlinesInterfaceDesign" parent="Base.Theme.EthiopianAirlinesInterfaceDesign" />
+</resources>
