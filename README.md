@@ -46,9 +46,16 @@ Upload the following files directly to your repository via the browser:
 Native Android application interface replicating the Ethiopian Airlines mobile app "Book a Flight" home screen.
 
 ## App Interface Preview
-
+> Full Top Screen
 <p align="center">
   <img src="screenshots/app_preview2.png" width="340" alt="Ethiopian Airlines UI Bottom Screen" />
+ 
+</p>
+
+---
+> UI Bottom Screen
+<p align="center">
+   
   <img src="screenshots/app_preview1.png" width="340" alt="Ethiopian Airlines UI Top Screen" />
 </p>
 
